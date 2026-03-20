@@ -19,4 +19,23 @@ As a Cybersecurity Analyst, systematic troubleshooting and problem-solving are e
 2. **Password reset** – Attempted to reset the built-in user password using:  
 ```bash
 elasticsearch-reset-password -u elastic
+3. Reviewed configuration files - checked elasticsearch.yml and kibana.yml for misconfigurations.
+4. Checked the keystore – Verified the integrity of the Elasticsearch keystore to ensure authentication was functional.
+5. Examined running processes – Ran: ps aux | grep elasticsearch to identify errors related to missing credentials.
+6. Searched for solutions – Consulted ChatGPT and cybersecurity forums for potential fixes.
+7. Clean reinstall – Removed all Elastic Stack traces and reinstalled from scratch to eliminate persistent issues.
+
+## 🔎 Security Insight
+- Systematic troubleshooting is a core cybersecurity skill
+- Logs are invaluable for identifying issues and understanding system behavior
+- Keystore integrity is critical; corruption can prevent services from starting
+
+## 🚀 Key Takeaways
+- Persistence pays off – Cybersecurity challenges often require repeated attempts
+- Analyze before panic – Logs and configuration files provide clues
+- Document solutions – Every troubleshooting step adds to your knowledge base
+- Cybersecurity is about learning, breaking, fixing, and repeating 🔄
+
+## 📌 Status
+✅ Completed
 
